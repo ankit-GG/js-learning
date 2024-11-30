@@ -8,6 +8,8 @@ let accountState
  console.log(accountId);
 
  console.table([accountId,accountEmail,accountCity,accountPass,accountState ]);
+
+ // accountState is valued with "undefined" 
  
  
  
