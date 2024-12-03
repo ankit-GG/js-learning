@@ -50,6 +50,7 @@ let scoreCounter = 100
 console.log(scoreCounter);
 scoreCounter++
 console.log(scoreCounter);
+
 // in both the cases the result will be same but postfix and prefix operators works differently
  
 
