@@ -30,3 +30,26 @@ const myFUNCTION = function(){
     
 }
 console.log(typeof myObj); 
+
+
+
+//***********************************MEMORY******************************
+
+
+// stack memory (primitive)  and  Heap memory(non-primitive)
+
+let name1 = "ankit"
+let name2 = name1
+name2 = "hitesh"
+
+console.log(name1); // returns ankit
+console.log(name2); // returns hitesh, because in ln 42 it gets the copy of name1 
+
+let user1 = {
+    namee: "Rakul",
+    UPI: "rahul@jul"
+}
+let user2 = user1
+user2.namee = "Rohit"
+console.log(user1.namee); // returns Rohit
+console.log(user2.namee); // returns Rohit, because in non primitive types we get the reference of the value
