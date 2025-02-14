@@ -52,4 +52,4 @@ let user1 = {
 let user2 = user1
 user2.namee = "Rohit"
 console.log(user1.namee); // returns Rohit
-console.log(user2.namee); // returns Rohit, because in non primitive types we get the reference of the value
+console.log(user2.namee); // returns Rohit, because in non primitive types we get the reference of the value 
